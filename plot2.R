@@ -6,7 +6,7 @@
 #temp <- tempfile()
 #download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 #              ,destfile=temp)
-
+#
 #read data from txt file within zip file into a data object
 #data <- read.table(unz(temp, "household_power_consumption.txt"),sep=";",header=T)
 #unlink(temp)
